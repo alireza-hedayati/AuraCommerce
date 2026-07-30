@@ -1,12 +1,4 @@
-// interface Review {
-//   rating: number;
-//   comment: string;
-//   date: string;
-//   reviewerName: string;
-//   reviewerEmail: string;
-// }
-
-export default interface Product{
+export interface Product{
     id:number,
     title:string,
     category:string,
@@ -20,4 +12,6 @@ export default interface Product{
 export interface ProductProps{
     data:Product[]
 }
+
+export type SearchParams = Promise <{[key:string]:string | string[] | undefined}>
 

@@ -48,9 +48,9 @@ export default function RootLayout({
                   Our website is designed to help you discover and compare the best products with confidence. We provide up-to-date information, easy navigation, and reliable support for every step of your buying journey.
                 </p>
                 <div className="flex flex-wrap gap-3 text-slate-400 text-sm">
-                  <span className="inline-flex items-center justify-center rounded-full border border-slate-900 px-3 py-2"><AiOutlineInstagram  color="black"/></span>
-                  <span className="inline-flex items-center justify-center rounded-full border border-slate-900 px-3 py-2"><FaLinkedinIn  color="black"/></span>
-                  <span className="inline-flex items-center justify-center rounded-full border border-slate-900 px-3 py-2"><FaXTwitter color="black"/></span>
+                  <span className="inline-flex items-center justify-center rounded-full border border-slate-900 px-3 py-2 cursor-pointer"><AiOutlineInstagram  color="black"/></span>
+                  <span className="inline-flex items-center justify-center rounded-full border border-slate-900 px-3 py-2 cursor-pointer"><FaLinkedinIn  color="black"/></span>
+                  <span className="inline-flex items-center justify-center rounded-full border border-slate-900 px-3 py-2 cursor-pointer"><FaXTwitter color="black"/></span>
                 </div>
               </div>
 
@@ -59,25 +59,25 @@ export default function RootLayout({
                 <div className="flex-1">
                   <h3 className="text-sm  uppercase tracking-[0.16em] text-yellow-500 font-bold mb-4">Company</h3>
                   <ul className="space-y-3 text-sm text-black">
-                    <li>About</li>
-                    <li>Blog</li>
-                    <li>Careers</li>
+                    <li className="cursor-pointer hover:opacity-75">About</li>
+                    <li className="cursor-pointer hover:opacity-75">Blog</li>
+                    <li className="cursor-pointer hover:opacity-75">Careers</li>
                   </ul>
                 </div>
                 <div className="flex-1">
                   <h3 className="text-sm  uppercase tracking-[0.16em] text-yellow-500 font-bold mb-4">Resources</h3>
                   <ul className="space-y-3 text-sm text-black">
-                    <li>Documentation</li>
-                    <li>Guides</li>
-                    <li>API Reference</li>
+                    <li className="cursor-pointer hover:opacity-75">Documentation</li>
+                    <li className="cursor-pointer hover:opacity-75">Guides</li>
+                    <li className="cursor-pointer hover:opacity-75">API Reference</li>
                   </ul>
                 </div>
                 <div className="flex-1">
                   <h3 className="text-sm  uppercase tracking-[0.16em] text-yellow-500 font-bold mb-4">Product</h3>
                   <ul className="space-y-3 text-sm text-black">
-                    <li>Features</li>
-                    <li>Pricing</li>
-                    <li>Enterprise</li>
+                    <li className="cursor-pointer hover:opacity-75">Features</li>
+                    <li className="cursor-pointer hover:opacity-75">Pricing</li>
+                    <li className="cursor-pointer hover:opacity-75">Enterprise</li>
                   </ul>
                 </div>
               </div>
@@ -86,10 +86,10 @@ export default function RootLayout({
             <div className="mt-10 border-t border-slate-800 pt-6 flex flex-col gap-5 md:flex-row md:items-center md:justify-between">
               <p className="text-sm text-slate-400">© 2026 AuraCommerce. All rights reserved.</p>
               <ul className="flex flex-wrap gap-4 text-sm text-black">
-                <li>Privacy</li>
-                <li>Terms</li>
-                <li>Security</li>
-                <li>Status</li>
+                <li className="cursor-pointer hover:opacity-75">Privacy</li>
+                <li className="cursor-pointer hover:opacity-75">Terms</li>
+                <li className="cursor-pointer hover:opacity-75">Security</li>
+                <li className="cursor-pointer hover:opacity-75">Status</li>
               </ul>
             </div>
           </div>

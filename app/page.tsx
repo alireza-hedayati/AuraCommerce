@@ -2,7 +2,7 @@
 import HomePage from "@/components/templates/HomePage";
 import "./globals.css";
 import api from "../components/services/api.js"
-import Product from "@/components/types/product";
+import {Product} from "@/components/types/product";
 
 
 export default async function Home() {
