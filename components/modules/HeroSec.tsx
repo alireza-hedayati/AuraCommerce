@@ -7,7 +7,7 @@ function HeroSec() {
             <h2 className="text-3xl font-bold text-black">Scale Your Direct-to-Consumer Brand with Aura.</h2>
             <p className="text-black">The all-in-one platform powering growth for modern brands. Sell smarter, scale faster.</p>
         <div className="flex flex-col sm:flex-row gap-4 mt-3 w-full sm:w-auto">
-                <button className="bg-yellow-500 text-gray-800 font-bold px-4 py-2 rounded-xl hover:bg-yellow-600 cursor-pointer">Explore Features</button>
+                <button className="bg-yellow-500 text-gray-100 font-bold px-4 py-2 rounded-xl hover:bg-yellow-600 cursor-pointer">Explore Features</button>
                 <button className="bg-yellow-500 text-gray-100 font-bold px-4 py-2 rounded-xl hover:bg-yellow-600 cursor-pointer">Request Demo</button>
             </div>
         </div>

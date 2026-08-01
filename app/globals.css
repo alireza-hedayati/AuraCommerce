@@ -15,6 +15,10 @@ body{
   --background-image-hero: url("/images/hero-bg.png")
 }
 
+@theme{
+  --background-image-about-us:url("/images/aboutBanner.webp")
+}
+
 .category-box{
   @apply  border border-gray-300 rounded-lg shadow-lg pb-3 px-1 pt-1 flex flex-col w-full sm:w-1/2 lg:w-1/5 gap-3
 }
