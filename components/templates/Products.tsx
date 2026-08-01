@@ -1,5 +1,6 @@
 import Card from "../modules/Card"
 import Pagination from "../modules/Pagination"
+import Search from "../modules/Search"
 import {Product} from "../types/product"
 
 type Props={
@@ -11,7 +12,8 @@ type Props={
 
 function Products({data,pageCount,currentPage}:Props) {
   return (
-    <>
+    <div>
+      <Search/>
     <div className="flex flex-wrap justify-center md:justify-evenly gap-4 mt-8">
     {data.map((product)=>(<Card key={product.id} {...product}/>))}
     </div>
@@ -19,7 +21,7 @@ function Products({data,pageCount,currentPage}:Props) {
     <div>
       <Pagination pageCount={pageCount} currentPage={currentPage}/>
     </div>
-    </>
+    </div>
   )
 }
 
